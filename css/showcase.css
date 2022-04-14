@@ -22,7 +22,8 @@ html {
 }
 
 .hero {
-  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url('../img/fumigando.jpg') no-repeat;
+  /* background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url('../img/fumigando.jpg') no-repeat; */
+  background:#a0a9c7;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -30,11 +31,16 @@ html {
   font-family: 'Poppins', sans-serif;
 }
 
+.logoP {
+  width: 20%;
+  height: auto;
+}
+
 .hero .title {
-  font-family:  'Caveat Brush', cursive;
+  font-family: 'Caveat Brush', cursive;
   transform: rotate(-5deg);
   font-size: 5rem;
-  color: #d54f06;
+  color: #C00714;
   text-transform: uppercase;
 }
 
@@ -44,9 +50,11 @@ html {
 }
 
 .hero .profession {
-  padding-top: 50px;
+  /* padding-top: 50px; */
   font-size: 1.7rem;
   text-transform: uppercase;
+  color: #052281;
+  font-weight: 700;
 }
 
 .hero .hero-foot {
@@ -58,6 +66,10 @@ html {
 @media (max-width: 599px) {
   .hero .hero-foot {
     display: none;
+  }
+  .logoP {
+    width: 50%;
+
   }
 }
 
